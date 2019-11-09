@@ -7,10 +7,12 @@ export default class App extends Component{
     
     return (
       <View style={style.container}>
-
-        <Text style={style.f20}>Demanda IZI</Text>
-        <Image source={require('./imgs/logoDemanda')}  style={{width: 140, height: 135}}/>
-        
+        <View>
+        <Image source={require('./imgs/logoDemanda')}  style={{width: 150, height: 145}}/>
+        </View>
+        <View style={style.texto}>
+        <Text style={style.f20}>Demanda IZI</Text>  
+        </View>
         <View style={style.write}>
         <TextInput  placeholder=" E-mail" style={style.input}/>
         </View>
@@ -35,7 +37,11 @@ const style = StyleSheet.create({
     
   },
   f20: {
-    fontSize: 20
+    fontSize: 40,
+    fontWeight: "bold"
+  },
+  texto: {
+      marginTop: 30
   },
   input: {
     height: 35,
@@ -46,19 +52,11 @@ const style = StyleSheet.create({
     
   },
   write: {
-    marginTop: 100,
+   marginTop: 20,
     padding: 20
   },
   botao: {
-    margin: 20,
-    
-    
+    margin: 30,
   },
-
-  dentrobotao:{
-   
-
-
-  }
 
 })
