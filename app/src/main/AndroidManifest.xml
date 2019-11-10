@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".PropostaDeServicos"
-            android:label="@string/title_activity_proposta_de_servicos"
+            android:label="Proposta de Serviços"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".PainelTrabalhador"
