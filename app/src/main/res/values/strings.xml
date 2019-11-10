@@ -5,4 +5,5 @@
     <string name="title_activity_tela_cad_empregador">Cadastrar Empregador</string>
     <string name="title_activity_tela_cad_trabalhador">Cadastrar Trabalhador</string>
     <string name="title_activity_painel_empregador">DemandaIZI</string>
+    <string name="title_activity_painel_trabalhador">DemandaIZI</string>
 </resources>

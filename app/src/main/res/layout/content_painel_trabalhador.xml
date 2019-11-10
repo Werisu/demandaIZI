@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".PainelEmpregador"
-    tools:showIn="@layout/activity_painel_empregador">
+    tools:context=".PainelTrabalhador"
+    tools:showIn="@layout/activity_painel_trabalhador">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -57,9 +57,9 @@
         android:layout_height="15mm"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="32dp"
-        android:drawableLeft="@drawable/round_insert_drive_file_black_18dp"
-        android:text="Proposta de Serviço"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/round_sports_handball_black_18dp"
+        android:text="Habilidades"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
@@ -69,24 +69,13 @@
         android:layout_height="15mm"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:drawableLeft="@android:drawable/ic_search_category_default"
-        android:text="Pesquisar"
+        android:drawableLeft="@drawable/round_how_to_reg_black_18dp"
+        android:text="Disponibilidade"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/proposta"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="27mm"
-        android:layout_height="15mm"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:drawableLeft="@drawable/round_how_to_reg_black_18dp"
-        android:text="Avaliação de Serviços"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/proposta" />
 </android.support.constraint.ConstraintLayout>
