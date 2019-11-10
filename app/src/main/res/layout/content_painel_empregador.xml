@@ -89,4 +89,16 @@
         android:text="Avaliação de Serviços"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/proposta" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="27mm"
+        android:layout_height="15mm"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/round_notifications_black_18dp"
+        android:text="Notificações"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 </android.support.constraint.ConstraintLayout>
