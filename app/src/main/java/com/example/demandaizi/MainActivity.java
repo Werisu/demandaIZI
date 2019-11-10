@@ -47,8 +47,12 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.empregador) {
+            Intent intent = new Intent(MainActivity.this, PainelEmpregador.class);
+            startActivity(intent);
+        }else if(id == R.id.trabalhador){
+            Intent intent = new Intent(MainActivity.this, PainelTrabalhador.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);

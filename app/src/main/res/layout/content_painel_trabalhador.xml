@@ -53,7 +53,7 @@
 
     <Button
         android:id="@+id/proposta"
-        android:layout_width="27mm"
+        android:layout_width="28mm"
         android:layout_height="15mm"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
@@ -65,7 +65,7 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="27mm"
+        android:layout_width="28mm"
         android:layout_height="15mm"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -80,7 +80,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="27mm"
+        android:layout_width="28mm"
         android:layout_height="15mm"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
@@ -92,7 +92,7 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="27mm"
+        android:layout_width="28mm"
         android:layout_height="15mm"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
