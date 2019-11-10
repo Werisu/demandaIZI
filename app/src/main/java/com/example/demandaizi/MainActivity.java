@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
 
-        final Button cadastrar = findViewById(R.id.cadastrar);
+        Button cadastrar = findViewById(R.id.cadastrar);
         cadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

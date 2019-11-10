@@ -18,11 +18,20 @@ public class TelaCadastro1 extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        final Button empregador = findViewById(R.id.empregador);
+        Button empregador = findViewById(R.id.empregador);
         empregador.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TelaCadastro1.this, TelaCadEmpregador.class);
+                startActivity(intent);
+            }
+        });
+
+        Button trabalhador = findViewById(R.id.trabalhador);
+        trabalhador.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(TelaCadastro1.this, TelaCadTrabalhador.class);
                 startActivity(intent);
             }
         });
