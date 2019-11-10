@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".PropostaDeServicos"
+            android:label="@string/title_activity_proposta_de_servicos"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".PainelTrabalhador"
             android:label="Prestador de Serviços"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".PainelEmpregador"
             android:label="Empregador"

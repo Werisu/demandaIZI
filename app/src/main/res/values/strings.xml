@@ -6,4 +6,5 @@
     <string name="title_activity_tela_cad_trabalhador">Cadastrar Trabalhador</string>
     <string name="title_activity_painel_empregador">DemandaIZI</string>
     <string name="title_activity_painel_trabalhador">DemandaIZI</string>
+    <string name="title_activity_proposta_de_servicos">Especialidade da Construção</string>
 </resources>
