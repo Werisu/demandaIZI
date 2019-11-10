@@ -10,13 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".TelaCadTrabalhador"
-            android:label="@string/title_activity_tela_cad_trabalhador"
+            android:name=".PainelEmpregador"
+            android:label="@string/title_activity_painel_empregador"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
+            android:name=".TelaCadTrabalhador"
+            android:label="@string/title_activity_tela_cad_trabalhador"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".TelaCadEmpregador"
-            android:parentActivityName="com.example.demandaizi.MainActivity"
             android:label="@string/title_activity_tela_cad_empregador"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TelaCadastro1"
