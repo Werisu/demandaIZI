@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">demandaIZI</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_tela_cadastro1">Cadastro</string>
+    <string name="title_activity_tela_cad_empregador">Cadastrar Empregador</string>
+    <string name="title_activity_tela_cad_trabalhador">Cadastrar Trabalhador</string>
 </resources>

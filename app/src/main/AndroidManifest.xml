@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".TelaCadTrabalhador"
+            android:label="@string/title_activity_tela_cad_trabalhador"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".TelaCadEmpregador"
+            android:label="@string/title_activity_tela_cad_empregador"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaCadastro1"
+            android:label="@string/title_activity_tela_cadastro1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
